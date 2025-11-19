@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: telegram-bot
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: php -S 0.0.0.0:$PORT bot.php
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
