@@ -1,0 +1,8 @@
+{
+    "name": "telegram-bot/render",
+    "description": "Telegram Bot for Render hosting",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    }
+}
